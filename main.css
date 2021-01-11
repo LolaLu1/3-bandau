@@ -1,0 +1,23 @@
+/*TODO: pagrindinis turinys horizontaliai centruotas*/
+/*TODO: padaryti taip , kad stulpeliai stovetu vienoje eileje.*/
+
+main {
+    display: inline-block;
+    width: 800px;
+    background-color: crimson;
+    margin-left: calc ((100% - 800px) / 2);
+}
+
+div:nth-of-type(1) {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    background-color: darkorange;
+}
+
+div:nth-of-type(2) { 
+    display: inline-block;
+    width: 60%;
+    float: right;
+    background-color: cyan;
+}
